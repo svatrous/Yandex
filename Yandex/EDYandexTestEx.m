@@ -7,7 +7,7 @@
 //
 
 #import "EDYandexTestEx.h"
-#import <UIKit/UIKit.h>
+
 
 @implementation EDYandexTestEx
 
@@ -112,5 +112,6 @@
     });
     
 }
+
 
 @end

@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface EDYandexTestEx : NSObject
 
+//В этом классе описаны задания №1, №2, №4.
+//Три теста для задания №2 (Задание №3) описано в папке YandexTests\ThirdEx
+//Шестое задание в файле YandexTestsSixthExTest.m
+
+//1
++ (UIImage *)syncProcessData:(NSData *)data;
+
+//2
 +(void)processItems:(NSArray *)items
            revision:(NSInteger)revision
          completion:(void(^)(NSInteger newRevision))completion;
+//4
++ (void) downloadImageFromURL:(NSURL *)URL intoCell:(UITableViewCell *)cell;
 
 @end
