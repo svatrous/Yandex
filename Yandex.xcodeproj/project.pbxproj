@@ -7,28 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E424F8D1C4E268300FF3FFC /* YandexTestsAsynchronousMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424F8C1C4E268300FF3FFC /* YandexTestsAsynchronousMethod.m */; };
+		6E424F961C4E31B700FF3FFC /* EDYandexTestEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424F951C4E31B700FF3FFC /* EDYandexTestEx.m */; };
+		6E424F981C4E337A00FF3FFC /* YandexTestsExceptionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424F971C4E337A00FF3FFC /* YandexTestsExceptionsTest.m */; };
+		6E424F9B1C4E39A500FF3FFC /* EDThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424F9A1C4E39A500FF3FFC /* EDThreadSafeDictionary.m */; };
+		6E424F9D1C4E422600FF3FFC /* YandexTestExpectedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424F9C1C4E422600FF3FFC /* YandexTestExpectedValues.m */; };
+		6E424FAA1C4E67EA00FF3FFC /* YandexTestsSixthExTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E424FA91C4E67EA00FF3FFC /* YandexTestsSixthExTest.m */; };
 		6EBBBEDC1C46843A005CC102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBBEDB1C46843A005CC102 /* main.m */; };
 		6EBBBEDF1C46843A005CC102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBBEDE1C46843A005CC102 /* AppDelegate.m */; };
-		6EBBBEE21C46843A005CC102 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBBEE11C46843A005CC102 /* ViewController.m */; };
-		6EBBBEE51C46843A005CC102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBBBEE31C46843A005CC102 /* Main.storyboard */; };
 		6EBBBEE71C46843A005CC102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBBBEE61C46843A005CC102 /* Assets.xcassets */; };
 		6EBBBEEA1C46843A005CC102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBBBEE81C46843A005CC102 /* LaunchScreen.storyboard */; };
+		6EBBBEF21C46847E005CC102 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EBBBEF11C46847E005CC102 /* img.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6E424F8F1C4E268300FF3FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBBBECF1C46843A005CC102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBBBED61C46843A005CC102;
+			remoteInfo = Yandex;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6E424F8A1C4E268300FF3FFC /* YandexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E424F8C1C4E268300FF3FFC /* YandexTestsAsynchronousMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YandexTestsAsynchronousMethod.m; sourceTree = "<group>"; };
+		6E424F8E1C4E268300FF3FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E424F941C4E31B700FF3FFC /* EDYandexTestEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDYandexTestEx.h; sourceTree = "<group>"; };
+		6E424F951C4E31B700FF3FFC /* EDYandexTestEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDYandexTestEx.m; sourceTree = "<group>"; };
+		6E424F971C4E337A00FF3FFC /* YandexTestsExceptionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YandexTestsExceptionsTest.m; sourceTree = "<group>"; };
+		6E424F991C4E39A500FF3FFC /* EDThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDThreadSafeDictionary.h; sourceTree = "<group>"; };
+		6E424F9A1C4E39A500FF3FFC /* EDThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDThreadSafeDictionary.m; sourceTree = "<group>"; };
+		6E424F9C1C4E422600FF3FFC /* YandexTestExpectedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YandexTestExpectedValues.m; sourceTree = "<group>"; };
+		6E424FA91C4E67EA00FF3FFC /* YandexTestsSixthExTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YandexTestsSixthExTest.m; sourceTree = "<group>"; };
 		6EBBBED71C46843A005CC102 /* Yandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBBBEDB1C46843A005CC102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EBBBEDD1C46843A005CC102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EBBBEDE1C46843A005CC102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EBBBEE01C46843A005CC102 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EBBBEE11C46843A005CC102 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6EBBBEE41C46843A005CC102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EBBBEE61C46843A005CC102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EBBBEE91C46843A005CC102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EBBBEEB1C46843A005CC102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBBBEF11C46847E005CC102 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6E424F871C4E268300FF3FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EBBBED41C46843A005CC102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E424F8B1C4E268300FF3FFC /* YandexTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E424FAB1C4F6E9B00FF3FFC /* ThirdEx */,
+				6E424FA91C4E67EA00FF3FFC /* YandexTestsSixthExTest.m */,
+				6E424F8E1C4E268300FF3FFC /* Info.plist */,
+			);
+			path = YandexTests;
+			sourceTree = "<group>";
+		};
+		6E424FAB1C4F6E9B00FF3FFC /* ThirdEx */ = {
+			isa = PBXGroup;
+			children = (
+				6E424F8C1C4E268300FF3FFC /* YandexTestsAsynchronousMethod.m */,
+				6E424F971C4E337A00FF3FFC /* YandexTestsExceptionsTest.m */,
+				6E424F9C1C4E422600FF3FFC /* YandexTestExpectedValues.m */,
+			);
+			name = ThirdEx;
+			sourceTree = "<group>";
+		};
 		6EBBBECE1C46843A005CC102 = {
 			isa = PBXGroup;
 			children = (
 				6EBBBED91C46843A005CC102 /* Yandex */,
+				6E424F8B1C4E268300FF3FFC /* YandexTests */,
 				6EBBBED81C46843A005CC102 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6EBBBED71C46843A005CC102 /* Yandex.app */,
+				6E424F8A1C4E268300FF3FFC /* YandexTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,13 +112,15 @@
 			children = (
 				6EBBBEDD1C46843A005CC102 /* AppDelegate.h */,
 				6EBBBEDE1C46843A005CC102 /* AppDelegate.m */,
-				6EBBBEE01C46843A005CC102 /* ViewController.h */,
-				6EBBBEE11C46843A005CC102 /* ViewController.m */,
-				6EBBBEE31C46843A005CC102 /* Main.storyboard */,
+				6EBBBEF11C46847E005CC102 /* img.jpg */,
 				6EBBBEE61C46843A005CC102 /* Assets.xcassets */,
 				6EBBBEE81C46843A005CC102 /* LaunchScreen.storyboard */,
 				6EBBBEEB1C46843A005CC102 /* Info.plist */,
 				6EBBBEDA1C46843A005CC102 /* Supporting Files */,
+				6E424F941C4E31B700FF3FFC /* EDYandexTestEx.h */,
+				6E424F951C4E31B700FF3FFC /* EDYandexTestEx.m */,
+				6E424F991C4E39A500FF3FFC /* EDThreadSafeDictionary.h */,
+				6E424F9A1C4E39A500FF3FFC /* EDThreadSafeDictionary.m */,
 			);
 			path = Yandex;
 			sourceTree = "<group>";
@@ -82,6 +136,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6E424F891C4E268300FF3FFC /* YandexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E424F911C4E268300FF3FFC /* Build configuration list for PBXNativeTarget "YandexTests" */;
+			buildPhases = (
+				6E424F861C4E268300FF3FFC /* Sources */,
+				6E424F871C4E268300FF3FFC /* Frameworks */,
+				6E424F881C4E268300FF3FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E424F901C4E268300FF3FFC /* PBXTargetDependency */,
+			);
+			name = YandexTests;
+			productName = YandexTests;
+			productReference = 6E424F8A1C4E268300FF3FFC /* YandexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6EBBBED61C46843A005CC102 /* Yandex */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EBBBEEE1C46843A005CC102 /* Build configuration list for PBXNativeTarget "Yandex" */;
@@ -108,6 +180,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = EarthquakeDev;
 				TargetAttributes = {
+					6E424F891C4E268300FF3FFC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6EBBBED61C46843A005CC102;
+					};
 					6EBBBED61C46843A005CC102 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -127,45 +203,65 @@
 			projectRoot = "";
 			targets = (
 				6EBBBED61C46843A005CC102 /* Yandex */,
+				6E424F891C4E268300FF3FFC /* YandexTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E424F881C4E268300FF3FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EBBBED51C46843A005CC102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBBBEF21C46847E005CC102 /* img.jpg in Resources */,
 				6EBBBEEA1C46843A005CC102 /* LaunchScreen.storyboard in Resources */,
 				6EBBBEE71C46843A005CC102 /* Assets.xcassets in Resources */,
-				6EBBBEE51C46843A005CC102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E424F861C4E268300FF3FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E424FAA1C4E67EA00FF3FFC /* YandexTestsSixthExTest.m in Sources */,
+				6E424F9D1C4E422600FF3FFC /* YandexTestExpectedValues.m in Sources */,
+				6E424F8D1C4E268300FF3FFC /* YandexTestsAsynchronousMethod.m in Sources */,
+				6E424F981C4E337A00FF3FFC /* YandexTestsExceptionsTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EBBBED31C46843A005CC102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBBBEE21C46843A005CC102 /* ViewController.m in Sources */,
 				6EBBBEDF1C46843A005CC102 /* AppDelegate.m in Sources */,
+				6E424F9B1C4E39A500FF3FFC /* EDThreadSafeDictionary.m in Sources */,
+				6E424F961C4E31B700FF3FFC /* EDYandexTestEx.m in Sources */,
 				6EBBBEDC1C46843A005CC102 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		6EBBBEE31C46843A005CC102 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EBBBEE41C46843A005CC102 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		6E424F901C4E268300FF3FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBBBED61C46843A005CC102 /* Yandex */;
+			targetProxy = 6E424F8F1C4E268300FF3FFC /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		6EBBBEE81C46843A005CC102 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -177,6 +273,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6E424F921C4E268300FF3FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YandexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = E.D.YandexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yandex.app/Yandex";
+			};
+			name = Debug;
+		};
+		6E424F931C4E268300FF3FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YandexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = E.D.YandexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yandex.app/Yandex";
+			};
+			name = Release;
+		};
 		6EBBBEEC1C46843A005CC102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = Yandex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = E.D.Yandex;
@@ -272,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = Yandex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = E.D.Yandex;
@@ -282,6 +406,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E424F911C4E268300FF3FFC /* Build configuration list for PBXNativeTarget "YandexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E424F921C4E268300FF3FFC /* Debug */,
+				6E424F931C4E268300FF3FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EBBBED21C46843A005CC102 /* Build configuration list for PBXProject "Yandex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -298,6 +431,7 @@
 				6EBBBEF01C46843A005CC102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

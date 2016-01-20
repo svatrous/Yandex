@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>YandexTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6E424F891C4E268300FF3FFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6EBBBED61C46843A005CC102</key>
 		<dict>
 			<key>primary</key>
