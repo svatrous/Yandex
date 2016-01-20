@@ -41,7 +41,6 @@
     
     [self waitForExpectationsWithTimeout:3
                                  handler:^(NSError *error) {
-                                     // handler is called on _either_ success or failure
                                      if (error != nil) {
                                          XCTFail(@"timeout error: %@", error);
                                      }
